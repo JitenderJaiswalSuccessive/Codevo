@@ -1,3 +1,68 @@
+# What is react
+
+version 17.0.2
+open source library building user interfaces
+Not a framework
+Focus on UI
+Component based Architecture
+Reusable Code
+React is declarative
+ -Tell react what you want and react will build the actual UI.
+Stateless functional component
+ -Simple functions
+ -Use Func components as much as possible
+ -Absence of 'this' keyword
+ -Solution without using state
+ -Mainly responsible for the UI
+ -Stateless/Dumb/Presentational
+Statefull class component
+ -More feature rich
+ -Maintain their own private data - state
+ -Complex UI logic
+ -Provide Lifecycle hooks
+ -Stateful/Smart/Container
+ JSX
+  -Javascript XML(JSX) -Extension to the javascript language syntax.
+  -Write XML-like code for elesments and components.
+  -JSX tags hava a tag name,attributes and children.
+  -JSX is not a necessity to write React applications.
+  -JSX makes your react code simpler and elegant.
+  -JSX ultimately transpiles to pure Javascript which is understood by the 
+   browser.
+ Props
+  -props get passed to the components
+  -Function parameters
+  -props are immutable
+  -props-Functional Components
+   this.props-Class Components
+ State
+  -state is managed within the component
+  -Variables declared in the function body
+  -state can be changed
+  -useState Hook-Functional Components
+   this.state-Class Components
+ setState
+  -Always make use of setState and never modify the state directly.
+  -Code has to be executed after the state has been updated?Place the code in
+   the callback function which is the second argument to the setState method.
+  -When you have to update state based on the previous state value,pass in a
+   function as an argument instead of the regular object.
+ Keys
+  -A "key" is a special string attribute you need to include when creating lists 
+   of elements.
+  -keys give the elements a stable identity.
+  -keys help React identify which items have changed, are added or are removed.
+  -Help in efficient update of the user interface.
+ When to use index as a key?
+  -The items in your list do not have a unique id.
+  -The list is a static list and will not change.
+  -The list never be reordered or filtered.
+ Styling React Components
+  -1. CSS stylesheets
+  -2. Inline styling
+  -3. CSS Modules
+  -4. CSS in JS Libraries(Recommended)
+  video 21 code
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
